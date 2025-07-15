@@ -11,7 +11,10 @@ A scalable AI chatbot platform built with FastAPI and LangGraph, featuring multi
 ## Demo
 
 
-https://github.com/user-attachments/assets/fc2c11a7-72ad-429d-944d-e413bc76318a
+
+https://github.com/user-attachments/assets/25adf403-6c66-4894-9f0e-27367787273c
+
+
 
 
 
