@@ -1,0 +1,38 @@
+# Core dependencies
+fastapi==0.115.12
+uvicorn==0.34.2
+python-jose[cryptography]==3.5.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+python-multipart==0.0.18
+pydantic==2.11.5
+pydantic-settings==2.9.1
+python-dotenv==1.1.0
+
+# Database
+sqlalchemy==2.0.41
+alembic==1.16.2
+aiosqlite==0.21.0
+
+# Voice agent
+langchain[openai]==0.3.24
+langchain-qdrant==0.2.0
+langgraph==0.3.2
+livekit-agents[deepgram,openai,cartesia,silero,turn-detector]==1.1.1
+livekit-plugins-noise-cancellation==0.2.4
+livekit-api==1.0.2
+langchain-core~=0.3.65
+openai~=1.88.0
+torch==2.7.1
+
+# MCP
+fastmcp==2.3.0
+langsmith==0.3.45
+langchain-mcp-adapters==0.1.7
+# Tavily
+tavily-python==0.7.8
+# Firecrawl
+firecrawl-py==2.9.0
+
+# MEM0
+mem0ai==0.1.107

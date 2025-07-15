@@ -1,0 +1,49 @@
+{
+  "name": "langgraph-chatbot-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@livekit/components-react": "^2.9.13",
+    "@livekit/components-styles": "^1.1.6",
+    "@mui/icons-material": "^5.18.0",
+    "@mui/material": "^5.18.0",
+    "axios": "^1.6.8",
+    "date-fns": "^4.1.0",
+    "livekit-client": "^2.15.2",
+    "livekit-server-sdk": "^2.13.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^9.0.1",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "^5.0.1",
+    "rehype-highlight": "^7.0.0",
+    "remark-gfm": "^4.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:8000"
+}
